@@ -1,6 +1,6 @@
 const Project = () => {
   return (
-    <div className="relative w-full h-auto py-10 pl-28 pr-28">
+    <div className="relative w-full h-auto py-10 md:pl-28 md:pr-28">
       
 
       

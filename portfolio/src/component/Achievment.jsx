@@ -2,7 +2,7 @@
 
 const Achievment = () => {
   return (
-    <div className="pl-28 pr-28">
+    <div className="md:pl-28 md:pr-28">
 
     <div className="m-10 p-5 relative z-20 mt-9 ">
         <h3 className="font-extrabold text-3xl pb-6 text-orange-800" >Achievment</h3>
