@@ -2,9 +2,9 @@
 
 const Skill = () => {
   return (
-    <div className=" m-10 pl-28 pr-28 pt[5rem] ">
+    <div className=" m-10 pl-20 pr-20 pt-[3rem]">
      <h2 className="font-extrabold text-3xl pb-12 text-orange-400">Skills</h2>
-    <div className=" grid grid-cols-4 gap-7">
+    <div className=" grid grid-cols-2 md:grid-cols-4 gap-7">
       <div className="w-40 h-32">
         <img className="w-40 h-32" src="https://static-00.iconduck.com/assets.00/react-icon-256x228-97ltgbl1.png" alt="" />
         <h4 className="text-2xl text-center text-yellow-700">React</h4>

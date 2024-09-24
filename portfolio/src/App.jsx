@@ -33,11 +33,11 @@ const App = () => {
     <div className="relative flex flex-col items-center justify-center w-full min-h-screen bg-[url('https://i.pinimg.com/originals/60/c9/23/60c923e0d8f8c2599cee1db374da73fa.jpg')] bg-cover bg-center">
       
       <div className="relative z-30 w-full h-auto">
-        <Header scrollToAbout={scrollToAbout} scrollToSkill={scrollToSkill} scrollToProject={scrollToProject} scrollToAchievment={scrollToAchievment} scrollToContact={scrollToContact}/>
-        <div ref={aboutRef}>
+        <Header scrollToAbout={scrollToAbout} scrollToSkill={scrollToSkill} scrollToProject={scrollToProject} scrollToAchievment v      ={scrollToAchievment} scrollToContact={scrollToContact}/>
+        <div className=" md:m-10" ref={aboutRef}>
         <About />
         </div>
-        <div ref={skillRef}>
+        <div className=" md:m-10"  ref={skillRef}>
         <Skill />
 
         </div>
