@@ -9,7 +9,7 @@ const Achievement = () => {
       </div>
 
       {/* Achievement List */}
-      <div className="bg-gray-50 shadow-lg rounded-lg p-6 md:p-10">
+      <div className="shadow-lg rounded-lg p-6 md:p-10">
         <ul className="space-y-6 text-lg md:text-xl font-semibold text-yellow-900">
           <li className="hover:text-orange-600 transition duration-200">
             1. Awarded the Certificate of Excellence from the prestigious{" "}
