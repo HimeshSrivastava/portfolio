@@ -1,22 +1,52 @@
-
-
-const Achievment = () => {
+const Achievement = () => {
   return (
-    <div className="md:pl-28 md:pr-28">
+    <div className="px-6 md:px-28 py-10">
+      {/* Title */}
+      <div className="mb-8">
+        <h3 className="font-extrabold text-3xl md:text-4xl text-orange-800 text-center md:text-left">
+          Achievements
+        </h3>
+      </div>
 
-    <div className="m-10 p-5 relative z-20 mt-9 ">
-        <h3 className="font-extrabold text-3xl pb-6 text-orange-800" >Achievment</h3>
-        <ul className="text-wrap text-lg font-bold text-yellow-900">
-       <li>1. I am the student of jss academy of technical education and part of many pretigious event and I get reward from
-      illumanti i.e certificate of excellance.</li>
-      <li> 2. I am part of seed Society and manage the event with all my team  member.</li>
-      <li> 3. I also selected for post of campus ambassador in shasstra event held in IIT madras.</li>
-      <li> 4. I was also shortlisted for SIH held in my collage but unfortunately not a single team go further. my team name is team alpha.</li>
-
+      {/* Achievement List */}
+      <div className="bg-gray-50 shadow-lg rounded-lg p-6 md:p-10">
+        <ul className="space-y-6 text-lg md:text-xl font-semibold text-yellow-900">
+          <li className="hover:text-orange-600 transition duration-200">
+            1. Awarded the Certificate of Excellence from the prestigious{" "}
+            <span className="text-orange-700 font-bold">Illumanti event</span>.
+          </li>
+          <li className="hover:text-orange-600 transition duration-200">
+            2. Selected as an{" "}
+            <span className="text-orange-700 font-bold">
+              open-source contributor in GSSoC
+            </span>{" "}
+            (GirlScript Summer of Code), contributing to 50+ innovative
+            projects.
+          </li>
+          <li className="hover:text-orange-600 transition duration-200">
+            3. Selected as a{" "}
+            <span className="text-orange-700 font-bold">
+              Campus Ambassador for Shaastra, IIT Madras
+            </span>.
+          </li>
+          <li className="hover:text-orange-600 transition duration-200">
+            4. Shortlisted for the{" "}
+            <span className="text-orange-700 font-bold">
+              Smart India Hackathon (SIH)
+            </span>{" "}
+            as part of Team Alpha, demonstrating innovative problem-solving
+            skills.
+          </li>
+          <li className="hover:text-orange-600 transition duration-200">
+            5. Completed an internship at{" "}
+            <span className="text-orange-700 font-bold">Bedwellin</span>, a
+            USA-based startup, where I gained practical experience working on
+            real-world projects and collaborating with an international team.
+          </li>
         </ul>
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default Achievment
+export default Achievement;

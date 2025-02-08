@@ -1,40 +1,76 @@
 const Project = () => {
   return (
-    <div className="relative w-full h-auto py-10 md:pl-28 md:pr-28">
-      
+    <div className="relative w-full h-auto py-10 px-4 md:px-28">
+      <div className="relative z-30 p-4 bg-white rounded-lg shadow-lg">
+        <h2 className="font-extrabold text-3xl text-orange-800 pb-6 text-center md:text-left">
+          Projects
+        </h2>
 
-      
-      <div className="relative z-30 p-8">
-        <h2 className="font-extrabold text-3xl text-orange-800 pb-6">Projects</h2>
-
-        <div className="space-y-6">
-          <div>
-            <h3 className="text-yellow-600 font-bold text-xl">1. Chat application</h3>
-            <p className="text-lg font-bold text-yellow-900">it is Full Stack Project in which you can send and read messages. it is fully authenticated and your personal data is saved and every user has it own data which is secured from other only you can acces it. you can message them separately.</p>
-          </div>
-          
-          {/* <div>
-            <h3 className="text-yellow-600 font-bold text-xl">2. Netflix</h3>
-            <p className="text-lg font-bold text-yellow-900">
-              It is a clone of Netflix, secured with Firebase, and has a very attractive user interface. It covers all the features and creates a list of the latest movies. It is different from Netflix in terms of GPT search and AI-based suggestions according to user input.
+        <div className="space-y-8">
+          {/* Project 1 */}
+          <div className="space-y-2">
+            <h3 className="text-yellow-600 font-bold text-lg md:text-xl">1. Chat Application</h3>
+            <p className="text-base md:text-lg font-medium text-yellow-900">
+              A full-stack application allowing users to send and receive messages in real-time. Features include user authentication, secure data storage, and personal messaging. Each user’s data is private and accessible only to them.
             </p>
-          </div> */}
-          
-          <div>
-            <h3 className="text-yellow-600 font-bold text-xl">3. Storing Your Contact Info</h3>
-            <p className="text-lg font-bold text-yellow-900">A backend project based on MongoDB,Python,Docker,and Flask where we are implementing all CRUD operations.</p>
-          </div>
-          
-          <div>
-            <h3 className="text-yellow-600 font-bold text-xl">4. Registeration Page</h3>
-            <p className="text-lg font-bold text-yellow-900">
-              This project fully authorizes your website using cookies and JWT tokens. Pages cannot be accessed without user login.
+            <p className="text-sm md:text-base font-medium text-gray-700">
+              <span className="text-gray-900 font-bold">Tech Stack:</span> React, Node.js, MongoDB, Express, Zustand, Socket.IO
+            </p>
+            <p className="text-sm md:text-base font-medium text-gray-700">
+              <span className="text-gray-900 font-bold">Deployed URL:</span>{" "}
+              <a
+                href="https://chat-app-frontend-new.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline"
+              >
+                Live Demo
+              </a>
             </p>
           </div>
-          <div>
-            <h3 className="text-yellow-600 font-extrabold text-xl ">5.Ecomerence website</h3>
-            <p className="text-lg font-bold text-yellow-900">
-              it is basically a frontend project where we make all the functionality of Ecommerence website just like adding items to Cart etc.
+
+          {/* Project 2 */}
+          <div className="space-y-2">
+            <h3 className="text-yellow-600 font-bold text-lg md:text-xl">2. Contact Management System</h3>
+            <p className="text-base md:text-lg font-medium text-yellow-900">
+              A backend project implementing all CRUD operations for storing and managing contact information efficiently. Designed with a focus on scalability and code structure.
+            </p>
+            <p className="text-sm md:text-base font-medium text-gray-700">
+              <span className="text-gray-900 font-bold">Tech Stack:</span> Flask, Python, MongoDB, Docker
+            </p>
+          </div>
+
+          {/* Project 3 */}
+          <div className="space-y-2">
+            <h3 className="text-yellow-600 font-bold text-lg md:text-xl">3. Registration Page</h3>
+            <p className="text-base md:text-lg font-medium text-yellow-900">
+              A secure authentication system using cookies and JWT tokens. Pages remain protected and can only be accessed after user login.
+            </p>
+            <p className="text-sm md:text-base font-medium text-gray-700">
+              <span className="text-gray-900 font-bold">Tech Stack:</span> React, Node.js, Express, MongoDB, JWT, Cookies
+            </p>
+            <p className="text-sm md:text-base font-medium text-gray-700">
+              <span className="text-gray-900 font-bold">Deployed URL:</span>{" "}
+              <a
+                href="https://registration-page-1.onrender.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-600 underline"
+              >
+                Live Demo
+              </a>
+            </p>
+            
+          </div>
+
+          {/* Project 4 */}
+          <div className="space-y-2">
+            <h3 className="text-yellow-600 font-bold text-lg md:text-xl">4. E-commerce Website</h3>
+            <p className="text-base md:text-lg font-medium text-yellow-900">
+              A frontend project replicating an e-commerce platform’s core functionalities, including product listing, cart management, and checkout simulation.
+            </p>
+            <p className="text-sm md:text-base font-medium text-gray-700">
+              <span className="text-gray-900 font-bold">Tech Stack:</span> React, Redux, Tailwind CSS
             </p>
           </div>
         </div>

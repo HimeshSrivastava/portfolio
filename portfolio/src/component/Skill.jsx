@@ -33,6 +33,10 @@ const Skill = () => {
         <img className="w-20 h-20 md:w-40  md:h-32" src="https://static.vecteezy.com/system/resources/previews/027/127/463/non_2x/javascript-logo-javascript-icon-transparent-free-png.png" alt="" />
         <h4 className="text-2xl text-center text-yellow-700">JAVASCRPIT</h4>
       </div>
+      <div className="w-40 h-32 flex flex-col items-center justify-center gap-3">
+        <img className="w-20 h-20 md:w-40  md:h-32" src="https://upload.wikimedia.org/wikipedia/commons/f/f5/Typescript.svg" alt="" />
+        <h4 className="text-2xl text-center text-yellow-700">TYPESCRPIT</h4>
+      </div>
        </div>
        </div>
   )
